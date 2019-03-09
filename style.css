@@ -1,0 +1,62 @@
+body{
+  background: rgb(245,245,245);
+  color: green;
+  font-size: 20px;
+  font-family: 'Lora', serif;
+  text-align: center;
+}
+h1{
+  font-family: 'Merriweather', serif;
+  color: red;
+  font-weight: lighter;
+  font-size: 30px;
+}
+h2 {
+  font-family: 'Merriweather', serif;
+  color: pink;
+  font-weight: lighter;
+  font-size: 22px;
+}
+a {
+  color: blue;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+#banner{
+  text-align: center;
+  background-image: url("https://images.pexels.com/photos/1298684/pexels-photo-1298684.jpeg?cs=srgb&dl=barrel-wave-motion-nature-1298684.jpg&fm=jpg");
+  background-size: cover;
+  padding: 60px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+.card{
+  padding: 50px;
+  font-weight: lighter;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 15px;
+}
+#footer a:hover {
+  color: white;
+}
